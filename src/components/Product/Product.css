@@ -1,0 +1,68 @@
+*{
+    margin: auto;
+    padding: 0px;
+}
+
+/* Estilos para la tarjeta */
+.card li{
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    background-color: #0d0d0d;
+    width: 75%;
+  }
+  
+  /* Estilos para la imagen en la tarjeta */
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+ 
+  
+  /* Estilos para el texto de la tarjeta */
+  .card p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  /* Estilos para el botón de la tarjeta */
+  .card .btn {
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333333;
+    cursor: pointer;
+  }
+  
+  .card a.btn:hover {
+    background-color: #0056b3;
+  }
+
+  ul{
+    text-decoration: none;
+    list-style: none;
+  }
+
+  
+  .card ul {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(
+        250px,1fr
+      )
+    );
+    gap: 1rem;
+  }
+
+  .title{
+    color: #fff;
+  }
+
+  strong{
+    color: #fff;
+  }
+  
